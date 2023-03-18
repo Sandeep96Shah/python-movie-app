@@ -1,4 +1,4 @@
-let addMoviesList = JSON.parse(localStorage.getItem("movies"));
+let addMoviesList = JSON.parse(localStorage.getItem("movies")) || [];
 
 function showAddedMoviesList(){
     // fetch the movieList element from the DOM
